@@ -8,3 +8,8 @@ create table Funcionarios (
 	Sobrenome varchar(255)
 );
 
+create table TipoUsuario (
+	IdTipoUsuario int primary key identity,
+	Tipo varchar(255)
+);
+
